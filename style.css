@@ -1,0 +1,219 @@
+body{
+    color: #555555;
+}
+h1, h2, h3, h4, h5, h6{
+    color: #333333;
+}
+section{
+    margin-top:  80px;
+}
+header{
+    background: #FFFFFF;
+}
+.header{
+    z-index: 999;
+}
+.header.affix{
+    background: rgba(255,255,255,.97);
+    width: 100%;
+    top: 0px;
+
+}
+.top-bar {
+    padding: 15px 0 0;
+    background: #EDEDED;
+}
+.social-info ul li{ display: inline-block; }
+.social-info ul li a{
+    font-size: 18px;
+    color: #555;
+    padding: 0 7px;
+}
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+}
+
+.navigation-area {
+    margin-top: 13px;
+}
+.navigation-area .navbar-default{
+    background: #FFFFFF;
+    border-color: #FFFFFF;
+}
+.navbar-default .navbar-nav > li > a{
+    color: #555;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.navigation-area .navbar{
+    margin-bottom:  7px;
+}
+.contact-info > a > span {
+    padding-right: 10px;
+}
+.contact-info{
+    color: #555;
+    font-size:  12px;
+}
+.contact-info a{
+    color: #555;
+}
+.contact-info > a > span i {
+    padding-right: 10px;
+}
+.highlight_menu.btn.btn-warning{
+    padding:  0px;
+    text-transform:  uppercase;
+    border-radius: 18px;
+}
+.highlight_menu.btn.btn-warning a{
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 10px 8px;
+}
+
+#carousel-example-generic .item img { width: 100%;
+    height: 400px;
+}
+.carousel-control.left, .carousel-control.right{
+    background-image:  none;
+}
+.main_btns a.btn i{ padding-right: 16px; }
+.jumbotron.main_heading{
+    padding-bottom:  0px;
+    background: none;
+}
+#section-jumbotron{
+    margin-top: 0px;
+}
+.jumbotron.main_heading h1{
+    font-size:  50px;
+    text-transform:  uppercase;
+}
+section#section-work-best{
+    margin-top:  100px;
+}
+/*.acc_items .panel-default > .panel-heading{
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+}
+.acc_items .panel-default{
+    border-color: #FFFFFF;
+}
+.acc_items .panel-default > .panel-heading + .panel-collapse > .panel-body{
+    border-top-color: #FFFFFF;
+}*/
+
+.acc_items .panel-heading .panel-title i.fa-plus{
+    border-radius: 50%;
+    background-color: #0074a2;
+    color: #fff;
+    font-size: 12px;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    padding-top: 4px;
+}
+#section-work-best{
+    background: url("images/bgr_res.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 0;
+}
+.acc_items .panel-heading .panel-title a{
+    padding-left: 20px;
+    font-size:  15px;
+    font-weight: 600;
+}
+.acc_items .panel-heading .panel-title a:hover{
+    text-decoration: none;
+}
+.allshore-tabs ul{
+    margin-top: 25px;
+}
+.allshore-tabs ul li{
+    padding-top: 10px;
+}
+.four_pillars{
+    margin-top: 30px;
+}
+.four_pillars h4 i{
+    color: #07bee5;
+    padding-right: 15px;
+    font-size: 25px;
+}
+.four_pillars h4{
+    text-transform: uppercase;
+}
+.four_pillars p{
+    margin-bottom: 30px;
+}
+#section-points{
+    background: url("images/bgr_res3.jpg") no-repeat fixed 50% -31px / cover;
+    height: 300px;
+}
+#section-points .four_pillars{
+    margin-top: 70px;
+}
+.portfolio_quote{
+    padding: 20px 0;
+}
+.portfolio_content img{ margin: 0 auto; }
+#section-competence h2{
+    margin-bottom: 40px;
+}
+#section-blog .thumbnail img{
+    height:  160px;
+}
+
+#section-call-action{
+    background: url("images/poly_bgr_blue.jpg");
+    color: #FFFFFF;
+    margin-bottom: 80px;
+    padding: 20px 0;
+}
+#section-call-action p{
+    color: #FFFFFF;
+    font-size: 16px;
+}
+#section-call-action h2{
+    color: #FFFFFF;
+}
+#section-call-action .call_to_action_btn a{
+    margin-top:  50px;
+
+}
+#section-call-action .call_to_action_btn a i{
+    padding-right: 10px;
+}
+#footer{
+    background-color: #222222;
+    color: #757d82;
+    padding-top: 30px;
+}
+.footer_top{
+}
+#footer h4{
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+#footer .footer_bottom{
+    background-color: #121313;
+    padding: 25px 0;
+}
+#footer a{
+    color: #949ea3;
+}
+.footer_top {
+    padding: 6px 0 50px;
+}
+.footer_contact span i{
+    padding-right: 10px;
+}
+@media (min-width: 979px) {
+    ul.nav li.dropdown:hover > ul.dropdown-menu {
+        display: block;
+    }
+}
